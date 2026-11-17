@@ -7,4 +7,5 @@ class mahasiswa:
         self.ipk = ipk
         mahasiswa.jumlah_mahasiswa += 1
 
-        
+    def tampilkan_info(self):
+        print(f"NIM: {self.nim} | nama: {self.nama} | ipk: {self.ipk:.2f}")
